@@ -9,7 +9,7 @@ public class NumberToWords {
             number /= 10;
         }        
         return reversedNumber / 10;
-    }    
+    }
     
     public static int getDigitCount(int number) {
         if (number < 0) {
