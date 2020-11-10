@@ -9,8 +9,7 @@ public class NumberToWords {
             number /= 10;
         }        
         return reversedNumber / 10;
-    }
-    
+    }    
     
     public static int getDigitCount(int number) {
         if (number < 0) {
@@ -25,8 +24,7 @@ public class NumberToWords {
             DigitCount++;
         }        
         return DigitCount;
-    }
-    
+    }    
     
     public static void numberToWords(int number) {
         if (number < 0) {
@@ -75,6 +73,6 @@ public class NumberToWords {
         for (int i = 0; i < getDigitCount(number) - digitCountOfReversedNumber; i++) {
             System.out.println("Zero");
         }
-    }   
+    }  
     
 }
